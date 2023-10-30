@@ -19,7 +19,10 @@ export default function Home() {
             (+266 51895376).
           </p>
         </ul>
-        <div className="shadow-md ..."></div>
+        <div className="shadow-md h-32 w-full p-4 mt-4 shadow-cyan-500/50 hover:shadow-lg">
+          <p>M4K LAUNDRY SERVICES</p>
+        </div>
+
 
         <Facebook />
         <MobileApplication />
