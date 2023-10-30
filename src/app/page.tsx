@@ -1,12 +1,10 @@
 import Image from "next/image";
 import Facebook from "./_components/facebook";
 import MobileApplication from "./_components/mobileApp";
-import NavBar from "./_components/navigation";
 
 export default function Home() {
   return (
     <main>
-      <NavBar />
       <div className="mt-5 p-5 lg:p-10 shadow-md" >
         <h4 className="font-semibold text-2xl text-center underline underline-offset-1 text-transform: capitalize;">
           M4K - Steps to follow
