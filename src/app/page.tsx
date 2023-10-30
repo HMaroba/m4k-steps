@@ -9,6 +9,9 @@ export default function Home() {
         <h4 className="font-semibold text-2xl text-center underline underline-offset-1 text-transform: capitalize;">
           M4K - Steps to follow
         </h4>
+        <div className="shadow-md h-32 w-full p-4 mt-4 bg-cyan-500 rounded-lg shadow-cyan-500/50 hover:shadow-lg">
+          <p className="text-2xl text-white">M4K LAUNDRY SERVICES</p>
+        </div>
         <h5 className="mt-4 font-semibold text-lg">
           Option 1 : Using Phone Number
         </h5>
@@ -19,9 +22,7 @@ export default function Home() {
             (+266 51895376).
           </p>
         </ul>
-        <div className="shadow-md h-32 w-full p-4 mt-4 shadow-cyan-500/50 hover:shadow-lg">
-          <p>M4K LAUNDRY SERVICES</p>
-        </div>
+
 
 
         <Facebook />
