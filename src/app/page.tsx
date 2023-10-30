@@ -11,7 +11,7 @@ export default function Home() {
           M4K - Steps to follow
         </h4> */}
         <div className="shadow-md h-16 w-full p-4 mt-2 bg-cyan-500 rounded-lg shadow-cyan-500/50 hover:shadow-lg">
-          <p className="text-2xl text-white">M4K LAUNDRY SERVICES - STEPS TO FOLLOW</p>
+          <p className="text-sm md:text-2xl text-white">M4K LAUNDRY SERVICES - STEPS TO FOLLOW</p>
         </div>
         {/* <div className="h-16 bg-gradient-to-r from-purple-500 to-pink-500 mt-5 rounded-2xl p-5">
           <p className="text-2xl text-white text-center">
