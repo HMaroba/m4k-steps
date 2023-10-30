@@ -5,8 +5,8 @@ import MobileApplication from "./_components/mobileApp";
 export default function Home() {
   return (
     <main>
-      <div className="mt-5  md:p-10">
-        <h4 className="font-semibold text-2xl text-center text-transform: uppercase">
+      <div className="mt-5  md:p-10 transition duration-0 hover:duration-150">
+        <h4 className="font-semibold text-2xl text-center text-transform: uppercase color-blue">
           M4K - Steps to follow
         </h4>
         <h5 className="mt-4 font-semibold text-lg">
