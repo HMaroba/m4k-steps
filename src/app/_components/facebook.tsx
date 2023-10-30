@@ -2,7 +2,7 @@
 export default function Facebook() {
   return (
     <>
-      <h5 className="mt-4 font-semibold">Facebook Page</h5>
+      <h5 className="mt-4 font-semibold text-lg">Option 2 : Facebook Page</h5>
       <ul className="mt-2">
         <p>
           Step 1. The Facebook page serves as an additional platform for our
