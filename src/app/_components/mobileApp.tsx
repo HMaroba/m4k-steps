@@ -9,7 +9,7 @@ export default function MobileApplication() {
         <p>Step 2. Sign in or create an account</p>
         <p>Step 3. Select a date and time for pickup by booking</p>
       </ul>
-      <h6 className="mt-2 font-semibold text-lg">
+      <h6 className="mt-4 font-semibold text-lg antialiased hover:subpixel-antialiased">
         Featiures of Mobile Application
       </h6>
       <h6 className="mt-2 font-semibold text-md">Laundry Pickup</h6>
@@ -33,6 +33,24 @@ export default function MobileApplication() {
       <ul>
         <p>
           Each item is carefully inspected to ensure quality and cleanliness.
+        </p>
+      </ul>
+      <h6 className="mt-2 font-semibold text-md">Delivery (if selected)</h6>
+      <ul>
+        <p>
+          On the agreed-upon date and time, the clean and neatly folded laundry
+          is delivered back to the customers doorstep.
+        </p>
+      </ul>
+      <h6 className="mt-2 font-semibold text-md">Notification and Feedback</h6>
+      <ul>
+        <p>
+          Customers receive notifications at each stage of the process
+          (pickup, processing, and delivery).
+        </p>
+        <p>
+          After delivery, customers have the opportunity to provide feedback
+          through the app.
         </p>
       </ul>
     </>
