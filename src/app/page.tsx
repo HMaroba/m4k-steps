@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Facebook from "./_components/facebook";
+import MobileApplication from "./_components/mobileApp";
 
 export default function Home() {
   return (
@@ -16,13 +17,8 @@ export default function Home() {
         </ul>
 
         <Facebook />
-  
-        <h5 className="mt-4 font-semibold">Booking using Mobile Appication</h5>
-        <ul className="mt-2">
-          <p>Step 1. Customers download the mobile app</p>
-          <p>Step 2. Sign in or create an account</p>
-          <p>Step 3. Select a date and time for pickup by booking</p>
-        </ul>
+        <MobileApplication />
+
       </div>
     </main>
   );
