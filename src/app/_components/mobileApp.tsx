@@ -4,7 +4,7 @@ export default function MobileApplication() {
       <h5 className="mt-4 font-semibold text-lg">
         Option 3 : Booking using Mobile Appication
       </h5>
-      <p>Download our mobile app here <a href="https://www.facebook.com/profile.php?id=61551388465746" className="text-blue-500 font-semibold underline">M4K LAUNDRY SERVICES</a></p>
+      <p>Download our mobile app  <a href="https://www.facebook.com/profile.php?id=61551388465746" className="text-blue-500 font-semibold underline">here</a></p>
       <ul className="mt-2">
         <p>Step 1. Customers download the mobile app</p>
         <p>Step 2. Sign in or create an account</p>
