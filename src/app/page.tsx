@@ -8,7 +8,7 @@ import HomeBar from "./_components/SidebarMenu";
 export default function Home() {
   return (
     <main>
-      <div className="mt-10 p-5 lg:p-10 shadow-md">
+      <div className="mt-5 p-5 lg:p-10 shadow-md">
         {/* <h4 className="font-semibold text-2xl text-center underline underline-offset-1 text-transform: capitalize;">
           M4K - Steps to follow
         </h4> */}
