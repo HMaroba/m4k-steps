@@ -2,6 +2,7 @@ import Image from "next/image";
 import Facebook from "./_components/facebook";
 import MobileApplication from "./_components/mobileApp";
 import Box from "./_components/box";
+import Table from "./_components/table";
 
 export default function Home() {
   return (
