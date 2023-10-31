@@ -3,6 +3,7 @@ import Facebook from "./_components/facebook";
 import MobileApplication from "./_components/mobileApp";
 import Box from "./_components/box";
 import Table from "./_components/table";
+import HomeBar from "./_components/SidebarMenu";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
             M4K LAUNDRY SERVICES - Steps to follow
           </p>
         </div> */}
+
+      
 
         <h5 className="mt-4 font-semibold text-lg">
           Option 1 : Using Phone Number
