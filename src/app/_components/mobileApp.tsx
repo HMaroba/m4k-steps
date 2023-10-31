@@ -19,11 +19,11 @@ export default function MobileApplication() {
         <p>Step 2. Sign in or create an account</p>
         <p>Step 3. Select a date and time for pickup by booking</p>
       </ul>
-      <h6 className="mt-4 font-semibold text-lg antialiased hover:subpixel-antialiased">
+      <h6 className="mt-4  mb-3 font-semibold text-xl antialiased hover:subpixel-antialiased">
         Featiures of Mobile Application
       </h6>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
-        <div className="h-32 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg rounded-md p-2">
+        <div className="h-32 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg rounded-md p-2 hover:shadow-md">
           <h6 className="mt-2 mb-2 font-semibold text-md">Laundry Pickup</h6>
           <ul>
             <p>
@@ -59,20 +59,25 @@ export default function MobileApplication() {
         </p>
       </ul>
         </div>
-        <div className="h-34 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg rounded-md p-2">
-        <h6 className="mt-2 font-semibold text-md">Notification and Feedback</h6>
+        <div className="h-32 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg rounded-md p-2">
+        <h6 className="mt-2 font-semibold text-md">Notification</h6>
       <ul>
         <p>
           Customers receive notifications at each stage of the process (pickup,
           processing, and delivery).
         </p>
+      </ul>
+        </div>
+        <div className="h-32 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg rounded-md p-2">
+        <h6 className="mt-2 font-semibold text-md">Feedback</h6>
+      <ul>
+      
         <p>
           After delivery, customers have the opportunity to provide feedback
           through the app.
         </p>
-      </ul>
+        </ul>
         </div>
-        <div className="h-34 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg rounded-md p-2"></div>
       </div>
       {/* <h6 className="mt-2 font-semibold text-md">Laundry Pickup</h6>
       <ul>
