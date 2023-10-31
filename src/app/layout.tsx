@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Open_Sans } from 'next/font/google'
 import './globals.css'
 import SideBar from './_components/Sidebar'
+import SidebarMenu from './_components/SidebarMenu'
 
 const inter = Open_Sans({ subsets: ['latin'] })
 
@@ -18,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SideBar>
+        <SidebarMenu>
         {children}
-          </SideBar></body>
+          </SidebarMenu></body>
     </html>
   )
 }
