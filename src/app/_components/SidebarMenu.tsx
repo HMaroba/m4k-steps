@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 export default function HomeBar() {
   const [navbar, setNavbar] = useState(false);
+  const currentPath = usePathname();
   return (
     <div>
-      <nav className="w-full bg-gray-800 shadow">
+      <nav className="w-full bg-gray-800 shadow fixed top-0 left-0">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -59,7 +61,7 @@ export default function HomeBar() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
+                <li className={`text-white ${currentPath === "/" ? "text-blue-500 font-semibold" : "text-white"}`}>
                   <Link href="/">Home</Link>
                 </li>
                 <li className="text-white">
@@ -76,11 +78,11 @@ export default function HomeBar() {
           </div>
         </div>
       </nav>
-      <div className="flex justify-center items-center mt-8">
+      {/* <div className="flex justify-center items-center mt-8">
         <h1 className="text-2xl font-bold text-purple-500">
           Create Responsive Navbar Menu in Next js with Tailwind CSS
         </h1>
-      </div>
+      </div> */}
     </div>
   );
 }
