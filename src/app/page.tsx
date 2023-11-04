@@ -3,7 +3,6 @@ import Facebook from "./_components/facebook";
 import MobileApplication from "./_components/mobileApp";
 import Table from "./_components/table";
 import HomeBar from "./_components/SidebarMenu";
-import Register from "./_components/Form";
 
 export default function Home() {
   return (
@@ -36,7 +35,6 @@ export default function Home() {
 
         <Facebook />
         <MobileApplication />
-        <Register />
       </div>
     </main>
   );
