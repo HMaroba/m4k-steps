@@ -12,6 +12,12 @@ export default function Register() {
             <p>The customer hands over the laundry.</p>
           </ul>
         </div>
+        <div className="h-100 md:h-32 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg rounded-md p-2 hover:shadow-md">
+          <h6 className="mt-2 mb-2 font-semibold text-md">Create Account Now</h6>
+          <label>Full Name</label>
+          <input  placeholder="John Doe" className="w-full"/>
+          
+        </div>
       </div>
     </>
   );
